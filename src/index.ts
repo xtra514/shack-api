@@ -14,7 +14,7 @@ const apiUrl: string = "https://ajax.gogo-load.com/ajax"
 
 
 app.get('/', (req, res) => {
-    res.send('Hello, SHACKERS');
+    res.send('Welcome, SHACKERS');
 });
 
 
