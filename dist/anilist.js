@@ -58,7 +58,7 @@ const getTrending = async (popular = false, page) => {
 
     // Filter out hentai genre
     const trendingAnime = response.data.data.Page.media.filter(
-      (anime) => !anime.genres.includes("Hentai")
+      (anime) => !anime.genres.some((genre) => genre === "Hentai")
     );
 
     return trendingAnime;
