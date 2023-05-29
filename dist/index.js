@@ -1,4 +1,4 @@
-m"use strict";
+"use strict";
 
 var __awaiter =
 
